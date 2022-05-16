@@ -139,10 +139,11 @@ export default function Header() {
                 </a>
               </Link>
             ))}
-            <Link href="/contact" />
-            <a className="font-medium text-maroon hover:text-maroon-dark">
-              Contact
-            </a>
+            <Link href="/contact">
+              <a className="font-medium text-maroon hover:text-maroon-dark">
+                Contact
+              </a>
+            </Link>
           </div>
         </nav>
       </div>
