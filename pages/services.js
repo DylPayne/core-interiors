@@ -4,12 +4,14 @@ import HeaderSection from "../components/header-section/headerSection";
 
 export default function ServicesPage() {
   return (
-    <Layout>
-      <HeaderSection
-        title="Services"
-        subtitle="Take a look at some of our services"
-      />
-      <Services />
-    </Layout>
+    <main>
+      <Layout>
+        <HeaderSection
+          title="Services"
+          subtitle="Take a look at some of our services"
+        />
+        <Services />
+      </Layout>
+    </main>
   );
 }
