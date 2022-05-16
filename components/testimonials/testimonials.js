@@ -38,11 +38,12 @@ export default function Testimonials() {
     <div className="">
       <div className="max-w-7xl mx-auto px-4 pb-12 sm:px-6 lg:px-8 lg:flex lg:items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {testimonials.map((item) => {
+          {testimonials.map((item, i) => {
             return (
               <div
                 role="listitem"
                 className="bg-white drop-shadow-md rounded p-4 xl:p-8"
+                key={i}
               >
                 <div class="h-3 text-3xl text-left text-maroon font-serif">
                   “

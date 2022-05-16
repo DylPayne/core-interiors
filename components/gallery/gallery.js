@@ -10,10 +10,15 @@ const images = [
 export default function Gallery() {
   return (
     <div className="container mx-auto space-y-5 lg:space-y-0 lg:gap-5 lg:grid lg:grid-cols-3 pb-20">
-      {images.map((image) => {
+      {images.map((image, i) => {
         return (
           <div className="w-full rounded hover:shadow-2xl">
-            <img src={image.src} alt={image.alt} className="rounded-lg" />
+            <img
+              src={image.src}
+              alt={image.alt}
+              className="rounded-lg"
+              key={i}
+            />
           </div>
         );
       })}

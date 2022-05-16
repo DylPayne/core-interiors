@@ -22,7 +22,9 @@ export default function TestimonialsPreview() {
           className="xl:w-1/2 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6 flex-wrap justify-center items-start"
         >
           <div role="listitem" className="bg-white shadow rounded p-4 xl:p-8">
-            <div class="h-3 text-3xl text-left text-maroon font-serif">“</div>
+            <div className="h-3 text-3xl text-left text-maroon font-serif">
+              “
+            </div>
             <div className="pl-4 pt-4 flex items-start justify-between">
               <div className="mr-6">
                 <p className="xl:text-xl xl:leading-loose text-gray-600">
