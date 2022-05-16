@@ -43,7 +43,7 @@ export default function TestimonialsPreview() {
             </div>
           </div>
           <div role="listitem" className="bg-white shadow rounded p-4 xl:p-8">
-            <div class="h-3 text-3xl text-left text-maroon font-serif">“</div>
+            <div className="h-3 text-3xl text-left text-maroon font-serif">“</div>
             <div className="pl-4 pt-4 flex items-start justify-between">
               <div className="mr-6">
                 <p className="xl:text-xl xl:leading-loose text-gray-600">

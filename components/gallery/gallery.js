@@ -12,7 +12,7 @@ export default function Gallery() {
     <div className="container mx-auto space-y-5 lg:space-y-0 lg:gap-5 lg:grid lg:grid-cols-3 pb-20">
       {images.map((image, i) => {
         return (
-          <div className="w-full rounded hover:shadow-2xl">
+          <div className="w-full rounded hover:shadow-2xl" key={i}>
             <img
               src={image.src}
               alt={image.alt}

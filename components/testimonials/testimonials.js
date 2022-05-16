@@ -45,7 +45,7 @@ export default function Testimonials() {
                 className="bg-white drop-shadow-md rounded p-4 xl:p-8"
                 key={i}
               >
-                <div class="h-3 text-3xl text-left text-maroon font-serif">
+                <div className="h-3 text-3xl text-left text-maroon font-serif">
                   “
                 </div>
                 <div className="pl-4 pt-4 flex items-start justify-between">
