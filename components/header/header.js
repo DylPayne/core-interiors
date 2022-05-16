@@ -117,7 +117,6 @@ export default function Header() {
             <div className="flex items-center justify-between w-full md:w-auto">
               <Link href="/">
                 <a>
-                  <span className="sr-only">Core logo</span>
                   <img className="h-12 w-auto sm:h-14" src="/logo.png" />
                 </a>
               </Link>
