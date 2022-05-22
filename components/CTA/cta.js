@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function CTA() {
   return (
     <div className="bg-white">
@@ -8,23 +10,21 @@ export default function CTA() {
         </h2>
         <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
           <div className="inline-flex rounded-md shadow">
-            <a
-              href="#"
-              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-maroon hover:bg-maroon-dark"
-            >
-              Gallery
-            </a>
+            <Link href="/gallery">
+              <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-maroon hover:bg-maroon-dark">
+                Gallery
+              </a>
+            </Link>
           </div>
           <div className="ml-3 inline-flex rounded-md shadow">
-            <a
-              href="#"
-              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-maroon bg-white hover:bg-maroon-light"
-            >
-              Contact us
-            </a>
+            <Link href="/contact">
+              <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-maroon bg-white hover:bg-maroon-light">
+                Contact us
+              </a>
+            </Link>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -4,7 +4,7 @@ export default function Promo() {
       <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
           <div className="sm:max-w-lg">
-            <h1 className="text-4xl font-serif font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="text-2xl font-serif font-bold tracking-tight text-gray-900 sm:text-5xl">
               Modernise your home
             </h1>
             <p className="mt-4 text-xl text-gray-500">
@@ -23,14 +23,14 @@ export default function Promo() {
                     <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
                         <img
-                          src="/k1.jpg"
+                          src="/kitchen3.jpg"
                           alt=""
                           className="w-full h-full object-center object-cover"
                         />
                       </div>
                       <div className="w-44 h-64 rounded-lg overflow-hidden">
                         <img
-                          src="k3.jpg"
+                          src="kitchen5.jpg"
                           alt=""
                           className="w-full h-full object-center object-cover"
                         />
@@ -39,21 +39,21 @@ export default function Promo() {
                     <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="w-44 h-64 rounded-lg overflow-hidden">
                         <img
-                          src="k2.jpg"
+                          src="kitchen4.jpg"
                           alt=""
                           className="w-full h-full object-center object-cover"
                         />
                       </div>
                       <div className="w-44 h-64 rounded-lg overflow-hidden">
                         <img
-                          src="k4.jpg"
+                          src="kitchen6.jpg"
                           alt=""
                           className="w-full h-full object-center object-cover"
                         />
                       </div>
                       <div className="w-44 h-64 rounded-lg overflow-hidden">
                         <img
-                          src="k5.jpg"
+                          src="kitchen7.jpg"
                           alt=""
                           className="w-full h-full object-center object-cover"
                         />
@@ -80,7 +80,7 @@ export default function Promo() {
               </div>
 
               <a
-                href="#"
+                href="/gallery"
                 className="inline-block text-center bg-maroon border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700"
               >
                 View gallery
