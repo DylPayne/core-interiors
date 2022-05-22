@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Promo() {
   return (
     <div className="relative bg-white overflow-hidden">
@@ -78,17 +80,15 @@ export default function Promo() {
                   </div>
                 </div>
               </div>
-
-              <a
-                href="/gallery"
-                className="inline-block text-center bg-maroon border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700"
-              >
-                View gallery
-              </a>
+              <Link href="/gallery">
+                <a className="inline-block text-center bg-maroon border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700">
+                  View gallery
+                </a>
+              </Link>
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
